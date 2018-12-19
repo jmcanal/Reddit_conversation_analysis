@@ -19,11 +19,11 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 import texttable as tt
 
-id = sys.argv[1]
+cid = sys.argv[1]
 secret = sys.argv[2]
 agent = sys.argv[3]
 
-reddit = praw.Reddit(client_id=id,
+reddit = praw.Reddit(client_id=cid,
                      client_secret=secret,
                      user_agent=agent)
 
