@@ -1,5 +1,5 @@
 # Reddit_conversation_analysis
-Information extraction from Reddit medical/health communities
+Information extraction for four health/disease-related communities on Reddit
 
 This is a script in Python that imports recent posts from Reddit - 
 specifically from subreddits focused on auto-immune diseases - and extracts
