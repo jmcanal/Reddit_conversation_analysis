@@ -16,7 +16,7 @@ from nltk.corpus import words as wordlist
 from datetime import datetime
 import re
 from collections import defaultdict
-import matplotlib.pyplot as plt
+from matplotlib import pyplot as plt
 import texttable as tt
 
 cid = sys.argv[1]
@@ -234,9 +234,7 @@ def redditRx(words):
     just one additional consonant, e.g. "Techfidera" (cf. "Tecfidera").
     This is meant to capture a non-exhaustive but large percentage of 
     misspellings without manually inputting a list of misspellings. Can
-    also be run for individual authors. (I also thought of comparing words 
-    by percentage matching and found the pre-existing function SequenceMatcher 
-    to do the comparison, but I haven't gotten it to be fully functional yet)
+    also be run for individual authors.
     """
     barewords = []
     barewords1 = defaultdict(list)
